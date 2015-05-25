@@ -1,0 +1,87 @@
+div {
+	display: inline-block;
+	_display: inline;
+}
+
+
+body {
+	margin : 0;
+	padding: 0;
+	width: 320px;
+	background-color: #FFE599;
+}
+
+nav {
+	margin : 0;
+	padding: 0;
+	width: 100%;
+	height: 20px;
+	font-weight: bold;
+	color: white;
+	background-color: black;
+}
+
+nav a{
+	text-decoration: none;
+	color: white;
+}
+
+nav ul {
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+}
+nav li {
+	float:left;
+	margin-left : 20px;
+	list-style: none;
+}
+
+
+#logo {
+	margin-top:5px;
+	width:  60px;
+	height: 60px;
+	float : left;
+}
+
+#logo img{
+	width:  55px;
+	height: 55px;
+}
+#title {
+	margin-top:5px;
+	width: 200;
+	height: 60px;
+	float : left;
+}
+#title p {
+	margin:0px;
+	padding:0px;
+	font-size: 10px;
+}
+
+#dice {
+	margin-top:5px;
+	width:  60px;
+	height: 60px;
+	float : right;
+}
+#dice canvas{
+	width:  60px;
+	height: 60px;
+}
+
+#main p {
+	margin:0px;
+	padding:0px;
+}
+
+#main h1 {
+	margin:0px;
+	padding:0px;
+	font-size: 20px;
+	font-style: oblique;
+}
+
+
